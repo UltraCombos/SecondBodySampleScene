@@ -20,6 +20,7 @@
     "com.unity.timeline": "1.6.4",
     "com.unity.ugui": "1.0.0",
     "com.unity.visualscripting": "1.7.8",
+    "jp.keijiro.klak.spout": "2.0.3",
     "jp.keijiro.osc-jack": "2.0.0"
   }
 }
