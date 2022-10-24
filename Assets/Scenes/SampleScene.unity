@@ -1424,6 +1424,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45099d624c1e6c14e9514f4e5ea1ed9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _buffer: {fileID: 0}
+  _attachedCamera: {fileID: 0}
   _spoutName: Floor
   _keepAlpha: 0
   _captureMethod: 2
@@ -1474,7 +1476,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be31235c98757864d889d9beccd6b8d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentControlMode: 0
+  currentControlMode: 1
   controllers:
   - {fileID: 1948457329}
   - {fileID: 536120825}
