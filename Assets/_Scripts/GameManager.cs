@@ -18,7 +18,7 @@ public class GameManager : MonoBehaviour
     public GameObject controlPosObj;
     public GameObject dancer;
 
-    private Vector2 floorPosRange = new Vector2(-5, 5);
+    private Vector2 floorPosRange = new Vector2(-5.5f, 5.5f);
     private controlMode lastControlMode;
 
     private void Start()
@@ -48,7 +48,7 @@ public class GameManager : MonoBehaviour
 
     private void UpdateDancerPosToCloth(Vector3 dancerPos)
     {
-        float rate = Mathf.Min(1, Time.deltaTime / 0.3f);
+        float rate = Mathf.Min(1, Time.deltaTime / 0.05f);
 
         Vector3 obiPos = dancer.transform.parent.transform.position;
         dancerPos += obiPos;
